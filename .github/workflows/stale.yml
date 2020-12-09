@@ -12,8 +12,8 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
-          only-labels: "Response Requested"
-          stale-issue-message: "Greetings! It looks like this issue hasn't been active in longer than a week. Because it has been a while since the last update on this, and in the absence of more information, we will be closing this issue soon. Please feel free to provide a comment or add an upvote to prevent automatic closure, or if the issue is already closed, please feel free to open a new one."
+          only-labels: "More Info Requested"
+          stale-issue-message: "Greetings! It looks like this issue hasn't been active in longer than a week. Because it has been a while since the last update on this, and in the absence of more information, we will be closing this issue soon. Please feel free to provide a comment to prevent automatic closure, or if the issue is already closed, please feel free to open a new one."
           stale-issue-label: "Closing Soon"
 
           # Issue timing
